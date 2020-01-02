@@ -99,6 +99,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github_token@github.com/wqwangchn/wqwangchn.github.io.git
+  repo: https://github.com/wqwangchn/wqwangchn.github.io.git
   branch: master
   message:
