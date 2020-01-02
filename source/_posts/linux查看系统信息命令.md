@@ -1,4 +1,6 @@
-
+---
+categories: 随笔
+---
 
 # uname -a # 查看内核/操作系统/CPU信息
 

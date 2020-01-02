@@ -1,3 +1,6 @@
+---
+categories: 随笔
+---
 1.sudo pip install  时， sudo: pip：找不到命令
 
 ```

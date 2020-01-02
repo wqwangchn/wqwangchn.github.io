@@ -1,3 +1,6 @@
+---
+categories: 随笔
+---
 ####gollum安装
 
 gollum是一个文档管理服务,依赖与Ruby，一般mac上会自带有Ruby
