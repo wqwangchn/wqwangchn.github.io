@@ -5,17 +5,17 @@
   
 
   
-  <title>Hello World | 此会在何年</title>
+  <title>linux问题 | 此会在何年</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="1.sudo pip install  时， sudo: pip：找不到命令 1234567891011解决方法：1.修改文件 &#x2F;etc&#x2F;sudoers   sudo vi &#x2F;etc&#x2F;sudoers   修改  Defaults  env_reset  这一行内容 为   Defaults   !env_reset2.修改文件 .bashrc	sudo vi">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://ycwang.net.cn/2020/01/01/hello-world/index.html">
+<meta property="og:title" content="linux问题">
+<meta property="og:url" content="http://ycwang.net.cn/2019/01/17/linux%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="此会在何年">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="1.sudo pip install  时， sudo: pip：找不到命令 1234567891011解决方法：1.修改文件 &#x2F;etc&#x2F;sudoers   sudo vi &#x2F;etc&#x2F;sudoers   修改  Defaults  env_reset  这一行内容 为   Defaults   !env_reset2.修改文件 .bashrc	sudo vi">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-01-01T10:27:09.013Z">
-<meta property="article:modified_time" content="2020-01-01T10:27:09.014Z">
+<meta property="article:published_time" content="2019-01-17T11:47:58.000Z">
+<meta property="article:modified_time" content="2019-01-17T11:47:58.000Z">
 <meta property="article:author" content="wqwang">
 <meta name="twitter:card" content="summary">
   
@@ -66,10 +66,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-linux问题" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/01/01/hello-world/" class="article-date">
-  <time datetime="2020-01-01T10:27:09.013Z" itemprop="datePublished">2020-01-01</time>
+    <a href="/2019/01/17/linux%E9%97%AE%E9%A2%98/" class="article-date">
+  <time datetime="2019-01-17T11:47:58.000Z" itemprop="datePublished">2019-01-17</time>
 </a>
     
   </div>
@@ -80,7 +80,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      linux问题
     </h1>
   
 
@@ -88,24 +88,21 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <p>1.sudo pip install  时， sudo: pip：找不到命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">解决方法：</span><br><span class="line">1.修改文件 &#x2F;etc&#x2F;sudoers</span><br><span class="line">   sudo vi &#x2F;etc&#x2F;sudoers</span><br><span class="line">   修改  Defaults  env_reset  这一行内容 为   Defaults   !env_reset</span><br><span class="line"></span><br><span class="line">2.修改文件 .bashrc</span><br><span class="line">	sudo vi .bashrc</span><br><span class="line">	在文件末尾添加  alias sudo&#x3D;&#39;sudo env PATH&#x3D;$PATH&#39;</span><br><span class="line">	</span><br><span class="line">	source .bashrc</span><br><span class="line">[附录sudo的作用的文章 https:&#x2F;&#x2F;www.ibm.com&#x2F;developerworks&#x2F;cn&#x2F;aix&#x2F;library&#x2F;au-sudo&#x2F;index.html]</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>2.centos7 使用yum进行install 出现 KeyboardInterrupt</p>
+<p>错误信息 </p>
+<p>File”/usr/lib/python2.7/site-packages/urlgrabber/grabber.py”,line1517,in_do_perform<br>raiseKeyboardInterrupt</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">解决方法：</span><br><span class="line">1.打开文件 &#x2F;usr&#x2F;lib&#x2F;python2.7&#x2F;site-packages&#x2F;urlgrabber&#x2F;grabber.py </span><br><span class="line">2.在1510行 (通过::1510 可以定位到)找到代码  elif errcode in (42,55,56): </span><br><span class="line">3.修改上面代码为 elif errcode &#x3D;&#x3D; 42:</span><br><span class="line">4.保存退出即可</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ycwang.net.cn/2020/01/01/hello-world/" data-id="ck4v5rad700008kfy62wq4d0c" class="article-share-link">Share</a>
+      <a data-url="http://ycwang.net.cn/2019/01/17/linux%E9%97%AE%E9%A2%98/" data-id="ck4whazmc000281s6bwgt4zac" class="article-share-link">Share</a>
       
       
     </footer>
@@ -114,10 +111,19 @@
     
 <nav id="article-nav">
   
+    <a href="/2019/04/23/python%E8%AF%AD%E6%B3%95/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          python语法
+        
+      </div>
+    </a>
   
-    <a href="/2019/06/14/%E6%94%B9%E5%96%84python%E7%A8%8B%E5%BA%8F91%E4%B8%AA%E5%BB%BA%E8%AE%AE/" id="article-nav-older" class="article-nav-link-wrap">
+  
+    <a href="/2019/01/17/linux%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%91%BD%E4%BB%A4/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">改善python程序91个建议</div>
+      <div class="article-nav-title">linux查看系统信息命令</div>
     </a>
   
 </nav>

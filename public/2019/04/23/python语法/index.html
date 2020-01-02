@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>python语法 | 此会在何年</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="1.正则 123456#正则去按照正则的组去替换文本pattern &#x3D; re.compile(r&#39;\[(.*?)\]&#x2F;fzjg&#39;)testContent &#x3D; pattern.sub(r&#39;\1&#39;, fileContent)#将fileContent中所有符合pattern的文本内容替换为 pattern匹配组1的内容#例： [2013年7月11日，被告人乌某对被害人刘某谎称自己有工作，从被害人刘某处">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python语法">
+<meta property="og:url" content="http://ycwang.net.cn/2019/04/23/python%E8%AF%AD%E6%B3%95/index.html">
+<meta property="og:site_name" content="此会在何年">
+<meta property="og:description" content="1.正则 123456#正则去按照正则的组去替换文本pattern &#x3D; re.compile(r&#39;\[(.*?)\]&#x2F;fzjg&#39;)testContent &#x3D; pattern.sub(r&#39;\1&#39;, fileContent)#将fileContent中所有符合pattern的文本内容替换为 pattern匹配组1的内容#例： [2013年7月11日，被告人乌某对被害人刘某谎称自己有工作，从被害人刘某处">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://ycwang.net.cn/Users/zhangxuejing/Documents/%E6%96%87%E6%A1%A3/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5.png">
+<meta property="article:published_time" content="2019-04-23T07:15:04.000Z">
+<meta property="article:modified_time" content="2019-04-23T07:15:04.000Z">
+<meta property="article:author" content="wqwang">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://ycwang.net.cn/Users/zhangxuejing/Documents/%E6%96%87%E6%A1%A3/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5.png">
+  
+    <link rel="alternate" href="/atom.xml" title="此会在何年" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">此会在何年</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://ycwang.net.cn"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-python语法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/04/23/python%E8%AF%AD%E6%B3%95/" class="article-date">
+  <time datetime="2019-04-23T07:15:04.000Z" itemprop="datePublished">2019-04-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      python语法
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1.正则</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#正则去按照正则的组去替换文本</span></span><br><span class="line">pattern = re.compile(<span class="string">r'\[(.*?)\]/fzjg'</span>)</span><br><span class="line">testContent = pattern.sub(<span class="string">r'\1'</span>, fileContent)</span><br><span class="line"><span class="comment">#将fileContent中所有符合pattern的文本内容替换为 pattern匹配组1的内容</span></span><br><span class="line"><span class="comment">#例： [2013年7月11日，被告人乌某对被害人刘某谎称自己有工作，从被害人刘某处借款人民币50,000元。]/fzjg案发后偿还了人民币26,000元。</span></span><br><span class="line"><span class="comment">#结果为：2013年7月11日，被告人乌某对被害人刘某谎称自己有工作，从被害人刘某处借款人民币50,000元。案发后偿还了人民币26,000元。</span></span><br></pre></td></tr></table></figure>
+
+<p>2.在单独的python脚本中引入另一个目录中的python脚本</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">basedir = os.path.abspath(os.path.dirname(__file__))</span><br><span class="line">basedir = basedir.split(<span class="string">"service"</span>)[<span class="number">0</span>]</span><br><span class="line">sys.path.append(basedir)  <span class="comment">#重要的一部分  将需要引入的那个目录加到python系统路径中之后再引用</span></span><br><span class="line"><span class="keyword">from</span> service.dataBase.db_conn <span class="keyword">import</span> MySQLSingle</span><br></pre></td></tr></table></figure>
+
+<p>3.python装饰器</p>
+<p>对于给已有函数添加额外功能并且不影响已有函数很有用</p>
+<p>functools 中wrap的使用</p>
+<p><a href="http://python.jobbole.com/82344/" target="_blank" rel="noopener">http://python.jobbole.com/82344/</a></p>
+<p><a href="http://lib.csdn.net/article/python/62942" target="_blank" rel="noopener">http://lib.csdn.net/article/python/62942</a></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">deco1</span><span class="params">(func)</span>:</span></span><br><span class="line">    print(<span class="string">'deco1'</span>)</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">()</span>:</span></span><br><span class="line">        print(<span class="string">'deco1 wrapper'</span>)</span><br><span class="line">        func()</span><br><span class="line">        print(<span class="string">'deco1 wraper end'</span>)</span><br><span class="line">    <span class="keyword">return</span> wrapper</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">deco2</span><span class="params">(func)</span>:</span></span><br><span class="line">    print(<span class="string">'deco2'</span>)</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">()</span>:</span></span><br><span class="line">        print(<span class="string">'deco2 wrapper'</span>)</span><br><span class="line">        func()</span><br><span class="line">        print(<span class="string">'deco2 wraper end'</span>)</span><br><span class="line">    <span class="keyword">return</span> wrapper</span><br><span class="line"></span><br><span class="line"><span class="meta">@deco1</span></span><br><span class="line"><span class="meta">@deco2</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">aa</span><span class="params">()</span>:</span></span><br><span class="line">    print(<span class="string">'aa'</span>)</span><br><span class="line"></span><br><span class="line">aa()</span><br><span class="line"></span><br><span class="line"><span class="comment">#上面 装饰器 @deco1 @deco2从下向上执行</span></span><br><span class="line"><span class="comment">#先执行deco2  @deco2 就相当于执行   func2 = deco2(aa)    这时输出  deco2  返回 deco2的内函数 wrapper</span></span><br><span class="line"><span class="comment">#然后执行deco1 @deco1 就相当于执行 func1 = deco1(func2) = deco1(deco2(aa))  这里的func2就是 deco2的wrapper  这是输出 deco1 wrapper 然后返回 deco1的wraper</span></span><br><span class="line"><span class="comment">#最后的结果aa()就是 执行了 deco1的wraper函数</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">输出</span><br><span class="line">deco2</span><br><span class="line">deco1</span><br><span class="line">deco1 wrapper</span><br><span class="line">deco2 wrapper</span><br><span class="line">aa</span><br><span class="line">deco2 wraper end</span><br><span class="line">deco1 wraper end</span><br></pre></td></tr></table></figure>
+
+<p>4.python 访问数据库单例模式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"># -*- coding: utf-8 -*-</span><br><span class="line"># @Time    : 2018&#x2F;10&#x2F;9 17:27</span><br><span class="line"># @Author  : xjzhang</span><br><span class="line"># @Site    : </span><br><span class="line"># @File    : db_conn.py</span><br><span class="line"># @Desc    :</span><br><span class="line"># @Software: PyCharm</span><br><span class="line">import pymysql</span><br><span class="line">from functools import wraps</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def singleton(cls):</span><br><span class="line">    instances &#x3D; &#123;&#125;</span><br><span class="line"></span><br><span class="line">    @wraps(cls)</span><br><span class="line">    def get_instance(*args, **kw):</span><br><span class="line">        if cls not in instances:</span><br><span class="line">            instances[cls] &#x3D; cls(*args, **kw)</span><br><span class="line">        return instances[cls]</span><br><span class="line">    return get_instance</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 数据库连接实例</span><br><span class="line">@singleton</span><br><span class="line">class MySQLSingle(object):</span><br><span class="line">    def __init__(self, conn&#x3D;&#39;&#39;):</span><br><span class="line">        self.conn &#x3D; conn</span><br><span class="line"></span><br><span class="line">    def get_conn(self,host_mysql, port_mysql, user_name_mysql, password_mysql, database):</span><br><span class="line">        try:</span><br><span class="line">            self.conn &#x3D; pymysql.connect(host&#x3D;host_mysql, port&#x3D;port_mysql, user&#x3D;user_name_mysql, password&#x3D;password_mysql, database&#x3D;database,</span><br><span class="line">                                        charset&#x3D;&#39;utf8&#39;)</span><br><span class="line">        except Exception as e:</span><br><span class="line">            print(&#39;File to connect database: %s&#39; % e)</span><br><span class="line">        return self.conn</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">from service.dataBase.db_conn import MySQLSingle</span><br><span class="line"></span><br><span class="line">def get_train_data(train_path):</span><br><span class="line">    mysql_single &#x3D; MySQLSingle()</span><br><span class="line">    conn &#x3D; mysql_single.get_conn(&#39;10.1.245.214&#39;,31306,&#39;lsop&#39;,&#39;lsop&#39;,&#39;lsop&#39;)</span><br><span class="line">    with conn.cursor() as cursor:</span><br><span class="line">        sql &#x3D; &quot;select id,case_theme from lsop_law_by_case&quot;</span><br><span class="line">        cursor.execute(sql)</span><br><span class="line">        all &#x3D; cursor.fetchall()</span><br><span class="line">        with open(train_path,&#39;w&#39;) as trainFile:</span><br><span class="line">            trainFile.write(&#39;id\ttheme\n&#39;)</span><br><span class="line">            for id,theme in all:</span><br><span class="line">                trainFile.write(id+&#39;\t&#39;+theme+&#39;\n&#39;)</span><br><span class="line">    conn.close()</span><br></pre></td></tr></table></figure>
+
+<p>5.爬虫-反爬策略</p>
+<p><img src="/Users/zhangxuejing/Documents/%E6%96%87%E6%A1%A3/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5.png" alt="爬虫策略"></p>
+<p>6.python中 <strong>repr</strong>函数</p>
+<pre><code>如果复写对象的这个函数 可以修改对象的输出信息</code></pre><ol start="7">
+<li><p>安装好python后，然后使用pip install python包的时候经常会遇到一些ssl问题</p>
+<p>Could not fetch URL <a href="https://pypi.org/simple/jieba/" target="_blank" rel="noopener">https://pypi.org/simple/jieba/</a>: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=’pypi.org’, port=443): Max retries exceeded with url: /simple/jieba/ (Caused by SSLError(SSLError(1, ‘[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:847)’),)) - skipping</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">解决： 因为这个 https://pypi.org这个pip源在国内不能用需要更换pip源</span><br><span class="line">修改源方法</span><br><span class="line">mkdir ~/.pip </span><br><span class="line">vim ~/.pip/pip.conf</span><br><span class="line">[global]</span><br><span class="line">index-url = http://mirrors.aliyun.com/pypi/simple/</span><br><span class="line">[install]</span><br><span class="line">trusted-host = mirrors.aliyun.com</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">pip国内镜像源。</span><br><span class="line"></span><br><span class="line">阿里云 http:&#x2F;&#x2F;mirrors.aliyun.com&#x2F;pypi&#x2F;simple&#x2F;</span><br><span class="line">中国科技大学 https:&#x2F;&#x2F;pypi.mirrors.ustc.edu.cn&#x2F;simple&#x2F;</span><br><span class="line">豆瓣 http:&#x2F;&#x2F;pypi.douban.com&#x2F;simple</span><br><span class="line">Python官方 https:&#x2F;&#x2F;pypi.python.org&#x2F;simple&#x2F;  </span><br><span class="line">v2ex http:&#x2F;&#x2F;pypi.v2ex.com&#x2F;simple&#x2F;</span><br><span class="line">中国科学院 http:&#x2F;&#x2F;pypi.mirrors.opencas.cn&#x2F;simple&#x2F;</span><br><span class="line">清华大学 https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple&#x2F;</span><br></pre></td></tr></table></figure>
+
+<p>8.在centos中不能正常显示中文，所有中文都是乱码</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">解决：</span><br><span class="line">通过locale查看 本地字符集设置</span><br><span class="line">正常为下面的列表时可以显示utf-8编码的中文字符，但是现在都是zh_en.UTF-8</span><br><span class="line">LANG=zh_CN.UTF-8</span><br><span class="line">LC_CTYPE="zh_CN.UTF-8"</span><br><span class="line">LC_NUMERIC="zh_CN.UTF-8"</span><br><span class="line">LC_TIME="zh_CN.UTF-8"</span><br><span class="line">LC_COLLATE="zh_CN.UTF-8"</span><br><span class="line">LC_MONETARY="zh_CN.UTF-8"</span><br><span class="line">LC_MESSAGES="zh_CN.UTF-8"</span><br><span class="line">LC_PAPER="zh_CN.UTF-8"</span><br><span class="line">LC_NAME="zh_CN.UTF-8"</span><br><span class="line">LC_ADDRESS="zh_CN.UTF-8"</span><br><span class="line">LC_TELEPHONE="zh_CN.UTF-8"</span><br><span class="line">LC_MEASUREMENT="zh_CN.UTF-8"</span><br><span class="line">LC_IDENTIFICATION="zh_CN.UTF-8"</span><br><span class="line">LC_ALL=zh_CN.UTF-8</span><br><span class="line"></span><br><span class="line">此时可以修改locale</span><br><span class="line">通过 locale -a | grep zh  查看是否有 zh_CN.UTF-8的字符集</span><br><span class="line">如果有 在.bashrc中添加 export LC_ALL=zh_CN.UTF-8  然后 source .bashrc即可</span><br><span class="line">如果没有，可以在其他正常的centos系统中 /usr/lib/locale/目录下拷贝locale-archive 覆盖 当前机器系统的 /usr/lib/locale/ 的locale-archive 然后重复上面操作</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2019/04/23/python%E8%AF%AD%E6%B3%95/" data-id="ck4whazmd000381s64ppn2py6" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/06/14/%E6%94%B9%E5%96%84python%E7%A8%8B%E5%BA%8F91%E4%B8%AA%E5%BB%BA%E8%AE%AE/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          改善python程序91个建议
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/01/17/linux%E9%97%AE%E9%A2%98/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">linux问题</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">June 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">April 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/01/01/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/14/%E6%94%B9%E5%96%84python%E7%A8%8B%E5%BA%8F91%E4%B8%AA%E5%BB%BA%E8%AE%AE/">改善python程序91个建议</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/23/python%E8%AF%AD%E6%B3%95/">python语法</a>
+          </li>
+        
+          <li>
+            <a href="/2019/01/17/linux%E9%97%AE%E9%A2%98/">linux问题</a>
+          </li>
+        
+          <li>
+            <a href="/2019/01/17/linux%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%91%BD%E4%BB%A4/">linux查看系统信息命令</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 wqwang<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
