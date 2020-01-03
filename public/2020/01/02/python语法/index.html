@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="此会在何年">
 <meta property="og:description" content="1.正则 123456#正则去按照正则的组去替换文本pattern &#x3D; re.compile(r&#39;\[(.*?)\]&#x2F;fzjg&#39;)testContent &#x3D; pattern.sub(r&#39;\1&#39;, fileContent)#将fileContent中所有符合pattern的文本内容替换为 pattern匹配组1的内容#例： [2013年7月11日，被告人乌某对被害人刘某谎称自己有工作，从被害人刘某处">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://ycwang.net.cn/Users/zhangxuejing/Documents/%E6%96%87%E6%A1%A3/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5.png">
+<meta property="og:image" content="http://ycwang.net.cn/2020/01/02/python%E8%AF%AD%E6%B3%95/Users/zhangxuejing/Documents/%E6%96%87%E6%A1%A3/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5.png">
 <meta property="article:published_time" content="2020-01-02T09:16:18.817Z">
 <meta property="article:modified_time" content="2020-01-02T09:16:18.820Z">
 <meta property="article:author" content="wqwang">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://ycwang.net.cn/Users/zhangxuejing/Documents/%E6%96%87%E6%A1%A3/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5.png">
+<meta name="twitter:image" content="http://ycwang.net.cn/2020/01/02/python%E8%AF%AD%E6%B3%95/Users/zhangxuejing/Documents/%E6%96%87%E6%A1%A3/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5.png">
   
     <link rel="alternate" href="/atom.xml" title="此会在何年" type="application/atom+xml">
   
@@ -115,7 +115,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">from service.dataBase.db_conn import MySQLSingle</span><br><span class="line"></span><br><span class="line">def get_train_data(train_path):</span><br><span class="line">    mysql_single &#x3D; MySQLSingle()</span><br><span class="line">    conn &#x3D; mysql_single.get_conn(&#39;10.1.245.214&#39;,31306,&#39;lsop&#39;,&#39;lsop&#39;,&#39;lsop&#39;)</span><br><span class="line">    with conn.cursor() as cursor:</span><br><span class="line">        sql &#x3D; &quot;select id,case_theme from lsop_law_by_case&quot;</span><br><span class="line">        cursor.execute(sql)</span><br><span class="line">        all &#x3D; cursor.fetchall()</span><br><span class="line">        with open(train_path,&#39;w&#39;) as trainFile:</span><br><span class="line">            trainFile.write(&#39;id\ttheme\n&#39;)</span><br><span class="line">            for id,theme in all:</span><br><span class="line">                trainFile.write(id+&#39;\t&#39;+theme+&#39;\n&#39;)</span><br><span class="line">    conn.close()</span><br></pre></td></tr></table></figure>
 
 <p>5.爬虫-反爬策略</p>
-<p><img src="/Users/zhangxuejing/Documents/%E6%96%87%E6%A1%A3/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5.png" alt="爬虫策略"></p>
+<p><img src="/2020/01/02/python%E8%AF%AD%E6%B3%95/Users/zhangxuejing/Documents/文档/爬虫策略.png" alt="爬虫策略"></p>
 <p>6.python中 <strong>repr</strong>函数</p>
 <pre><code>如果复写对象的这个函数 可以修改对象的输出信息</code></pre><ol start="7">
 <li><p>安装好python后，然后使用pip install python包的时候经常会遇到一些ssl问题</p>
@@ -133,7 +133,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ycwang.net.cn/2020/01/02/python%E8%AF%AD%E6%B3%95/" data-id="ck4whazmd000381s64ppn2py6" class="article-share-link">Share</a>
+      <a data-url="http://ycwang.net.cn/2020/01/02/python%E8%AF%AD%E6%B3%95/" data-id="ck4y00s9b00056ds6b26zhq4u" class="article-share-link">Share</a>
       
       
     </footer>
@@ -212,11 +212,11 @@
       <ul>
         
           <li>
-            <a href="/2020/01/02/%E7%A7%BB%E5%8A%A8%E6%95%B0%E5%AD%97%E9%87%91%E8%9E%8D%E4%B8%8E%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E5%8F%8D%E6%AC%BA%E8%AF%88%E7%99%BD%E7%9A%AE%E4%B9%A6/">移动数字金融与电子商务反欺诈白皮书</a>
+            <a href="/2020/01/03/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5/">爬虫策略</a>
           </li>
         
           <li>
-            <a href="/2020/01/02/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5/">爬虫策略</a>
+            <a href="/2020/01/02/%E7%A7%BB%E5%8A%A8%E6%95%B0%E5%AD%97%E9%87%91%E8%9E%8D%E4%B8%8E%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E5%8F%8D%E6%AC%BA%E8%AF%88%E7%99%BD%E7%9A%AE%E4%B9%A6/">移动数字金融与电子商务反欺诈白皮书</a>
           </li>
         
           <li>

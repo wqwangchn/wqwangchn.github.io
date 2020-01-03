@@ -96,7 +96,7 @@
 <p>gollum是一个文档管理服务,依赖与Ruby，一般mac上会自带有Ruby</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[sudo] gem install gollum</span><br></pre></td></tr></table></figure>
 
-<p>但是通过gem安装gollum的时候报错了,类似于下面这个错误（我当时的错误没有截图），<font color='red'>一般来说如果安装在源码.h文件报错一般会是开发包的问题。</font>这里其实就是少了<code>ruby-devel</code>包,所以接下来要安装ruby-devel包</p>
+<p>但是通过gem安装gollum的时候报错了,类似于下面这个错误（我当时的错误没有截图），<font color="red">一般来说如果安装在源码.h文件报错一般会是开发包的问题。</font>这里其实就是少了<code>ruby-devel</code>包,所以接下来要安装ruby-devel包</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">ERROR:  Error installing bluecloth:</span><br><span class="line">ERROR: Failed to build gem native extension.</span><br><span class="line"> </span><br><span class="line">/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby</span><br><span class="line">extconf.rb</span><br><span class="line">mkmf.rb can't find header files for ruby at</span><br><span class="line">/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/ruby.h</span><br></pre></td></tr></table></figure>
 
 <p>在linux上一般通过yum去管理包，ruby-devel 在百度上查到很多可以根据rpm去安装的，但是在mac上只有brew ，并且brew下还没有ruby-devel这个包文件，所以想到 rvm是ruby环境管理器，所以就试着用下面的命令安装了ruby-devel这个ruby开发包</p>
@@ -105,14 +105,14 @@
 <p>然后</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[sudo] gem install gollum</span><br></pre></td></tr></table></figure>
 
-<p><font color='red'>成功</font></p>
+<p><font color="red">成功</font></p>
 <p>默认gollum启动的接口为4567</p>
 <p><a href="http://127.0.0.1:4567" target="_blank" rel="noopener">http://127.0.0.1:4567</a> 就可以新建一个wiki页面进行编辑了</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ycwang.net.cn/2020/01/02/gitlab_wiki%E6%93%8D%E4%BD%9C/" data-id="ck4whazm3000081s60mjgeiz6" class="article-share-link">Share</a>
+      <a data-url="http://ycwang.net.cn/2020/01/02/gitlab_wiki%E6%93%8D%E4%BD%9C/" data-id="ck4y00s8y00006ds6ae3kfru6" class="article-share-link">Share</a>
       
       
     </footer>
@@ -191,11 +191,11 @@
       <ul>
         
           <li>
-            <a href="/2020/01/02/%E7%A7%BB%E5%8A%A8%E6%95%B0%E5%AD%97%E9%87%91%E8%9E%8D%E4%B8%8E%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E5%8F%8D%E6%AC%BA%E8%AF%88%E7%99%BD%E7%9A%AE%E4%B9%A6/">移动数字金融与电子商务反欺诈白皮书</a>
+            <a href="/2020/01/03/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5/">爬虫策略</a>
           </li>
         
           <li>
-            <a href="/2020/01/02/%E7%88%AC%E8%99%AB%E7%AD%96%E7%95%A5/">爬虫策略</a>
+            <a href="/2020/01/02/%E7%A7%BB%E5%8A%A8%E6%95%B0%E5%AD%97%E9%87%91%E8%9E%8D%E4%B8%8E%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E5%8F%8D%E6%AC%BA%E8%AF%88%E7%99%BD%E7%9A%AE%E4%B9%A6/">移动数字金融与电子商务反欺诈白皮书</a>
           </li>
         
           <li>
