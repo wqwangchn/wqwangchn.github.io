@@ -1,5 +1,5 @@
 # 指定构建环境是Node.js，当前版本是稳定版
-anguage: node_js
+language: node_js
 node_js: stable
 
 # 设置钩子只检测blog-source分支的push变动
@@ -17,7 +17,7 @@ before_install:
   - npm install -g hexo-cli
   #- git clone https://github.com/smduan/next.git themes/next
 
-#安装git插件和搜索功能插件
+##安装git插件和搜索功能插件
 install:
   - npm install
   - npm install hexo-deployer-git --save
@@ -30,8 +30,14 @@ script:
 
 # 设置git提交名，邮箱；替换真实token到_config.yml文件，最后depoy部署
 after_script:
+  - cd ./public
+  - git init
   - git config user.name "wqwangchn"
   - git config user.email "wqwangchn@163.com"
   # 替换同目录下的_config.yml文件中github_token字符串为travis后台刚才配置的变量，注>意此处sed命令用了双引号。单引号无效！
-  - sed -i "s/github_token/${github_token}/g" ./_config.yml
+  - sed -i "s/github_token/${hexo_token}/g" ./_config.yml
   - hexo deploy
+
+env:
+  global:
+    - GH_REF: github.com/wqwangchn/wqwangchn.github.io.git
