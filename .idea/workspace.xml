@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c63ef646-c2ea-4673-9bf0-e7b02530b2dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.deploy_git" beforeDir="false" afterPath="$PROJECT_DIR$/.deploy_git" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/2020/01/02/css小知识/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2020/01/02/css小知识/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/2020/01/02/gitlab_wiki操作/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2020/01/02/gitlab_wiki操作/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/2020/01/02/linux查看系统信息命令/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2020/01/02/linux查看系统信息命令/index.html" afterDir="false" />
@@ -15,15 +11,17 @@
       <change beforePath="$PROJECT_DIR$/public/2020/01/02/vue原理/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2020/01/02/vue原理/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/2020/01/02/改善python程序91个建议/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2020/01/02/改善python程序91个建议/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/2020/01/02/源码算法/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2020/01/02/源码算法/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2020/01/02/爬虫策略/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2020/01/02/爬虫策略/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/2020/01/02/移动数字金融与电子商务反欺诈白皮书/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/2020/01/02/移动数字金融与电子商务反欺诈白皮书/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/archives/2020/01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2020/01/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/archives/2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/2020/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/archives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/works/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/works/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/works/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/categories/前端/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/categories/随笔/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/随笔/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书/移动数字金融与电子商务反欺诈白皮书.pdf" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,8 +108,20 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" column="27" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="27" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/landscape/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="292">
+                <caret line="108" column="41" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -122,8 +132,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/爬虫策略.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -169,8 +179,8 @@
         <option value="$PROJECT_DIR$/source/_posts/gitlab_wiki操作.md" />
         <option value="$PROJECT_DIR$/source/_posts/css小知识.md" />
         <option value="$PROJECT_DIR$/source/_posts/vue原理.md" />
-        <option value="$PROJECT_DIR$/source/_posts/爬虫策略.md" />
         <option value="$PROJECT_DIR$/source/book/index.md" />
+        <option value="$PROJECT_DIR$/source/_posts/爬虫策略.md" />
         <option value="$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书.md" />
       </list>
     </option>
@@ -196,11 +206,6 @@
             <path>
               <item name="wqwangchn.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="wqwangchn.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="scaffolds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wqwangchn.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wqwangchn.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,6 +213,17 @@
               <item name="wqwangchn.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wqwangchn.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wqwangchn.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wqwangchn.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wqwangchn.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="landscape" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wqwangchn.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -236,8 +252,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书" />
       <recent name="$PROJECT_DIR$/source/_posts" />
+      <recent name="$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书" />
       <recent name="$PROJECT_DIR$/source/book" />
     </key>
   </component>
@@ -263,17 +279,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577951856573</updated>
-      <workItem from="1577951858675" duration="2822000" />
+      <workItem from="1577951858675" duration="3908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7905000" />
+    <option name="totallyTimeSpent" value="8991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +302,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32340425" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30212766" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -326,14 +342,6 @@
           <first_editor relative-caret-position="105">
             <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/landscape/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -481,16 +489,6 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/爬虫策略.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/爬虫策略.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/book/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -551,11 +549,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/爬虫策略.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/landscape/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="292">
+            <caret line="108" column="41" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="27" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="27" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
