@@ -5,7 +5,7 @@ node_js: stable
 # 设置钩子只检测blog-source分支的push变动
 branches:
   only:
-    - my_blog
+    - wq_blog
 
 # 设置缓存文件
 cache:
