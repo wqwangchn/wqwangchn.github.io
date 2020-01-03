@@ -30,7 +30,7 @@ script:
 
 # 设置git提交名，邮箱；替换真实token到_config.yml文件，最后depoy部署
 after_script:
-  - cd ./public
+  #- cd ./public
   - git init
   - git config user.name "wqwangchn"
   - git config user.email "wqwangchn@163.com"
