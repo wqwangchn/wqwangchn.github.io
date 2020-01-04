@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c63ef646-c2ea-4673-9bf0-e7b02530b2dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c63ef646-c2ea-4673-9bf0-e7b02530b2dc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,8 +155,8 @@
         <option value="$PROJECT_DIR$/source/_posts/test.md" />
         <option value="$PROJECT_DIR$/source/_posts/爬虫策略.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/source/_posts/移动数字金融与电子商务反欺诈白皮书.md" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -238,18 +236,18 @@
       <updated>1577951856573</updated>
       <workItem from="1577951858675" duration="3908000" />
       <workItem from="1578042804782" duration="3719000" />
-      <workItem from="1578048040955" duration="3570000" />
+      <workItem from="1578048040955" duration="4056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16280000" />
+    <option name="totallyTimeSpent" value="16766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.26037195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,7 +260,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31914893" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31914893" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
