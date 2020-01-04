@@ -32,7 +32,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "wqwangchn"
+  - git config user.name "wqwang"
   - git config user.email "wqwangchn@163.com"
   - git add .
   - git commit -m "Travis CI AutoUpdate"
