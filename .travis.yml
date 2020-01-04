@@ -36,7 +36,7 @@ after_script:
   - git config user.email "wqwangchn@163.com"
   - git add .
   - git commit -m "Travis CI AutoUpdate"
-  - git push --force --quiet "https://${hexo_token}@${GITHUB_REF}"
+  - git push --force --quiet "https://${hexo_token}@${GITHUB_REF}" master
 
 env:
   global:
