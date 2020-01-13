@@ -5,7 +5,7 @@
 # Site
 title: 此会在何年
 subtitle: ''
-description: 'ycwangs blog'
+description: "ycwang's blog"
 keywords:
 author: wqwang
 language: en
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next #landscape
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
