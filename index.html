@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>此会在何年</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="ycwang&#39;s blog">
+<meta property="og:type" content="website">
+<meta property="og:title" content="此会在何年">
+<meta property="og:url" content="http://ycwang.net.cn/index.html">
+<meta property="og:site_name" content="此会在何年">
+<meta property="og:description" content="ycwang&#39;s blog">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="wqwang">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="此会在何年" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">此会在何年</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://ycwang.net.cn"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-css小知识" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/css%E5%B0%8F%E7%9F%A5%E8%AF%86/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/css%E5%B0%8F%E7%9F%A5%E8%AF%86/">css小知识</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>啥也不写，上传个毛线啊</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/css%E5%B0%8F%E7%9F%A5%E8%AF%86/" data-id="ck77fr38b0001l2tp9jf34oy4" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-gitlab_wiki操作" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/gitlab_wiki%E6%93%8D%E4%BD%9C/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/gitlab_wiki%E6%93%8D%E4%BD%9C/">gitlab_wiki操作</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>####gollum安装</p>
+<p>gollum是一个文档管理服务,依赖与Ruby，一般mac上会自带有Ruby</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[sudo] gem install gollum</span><br></pre></td></tr></table></figure>
+
+<p>但是通过gem安装gollum的时候报错了,类似于下面这个错误（我当时的错误没有截图），<font color="red">一般来说如果安装在源码.h文件报错一般会是开发包的问题。</font>这里其实就是少了<code>ruby-devel</code>包,所以接下来要安装ruby-devel包</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">ERROR:  Error installing bluecloth:</span><br><span class="line">ERROR: Failed to build gem native extension.</span><br><span class="line"> </span><br><span class="line">/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby</span><br><span class="line">extconf.rb</span><br><span class="line">mkmf.rb can't find header files for ruby at</span><br><span class="line">/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/ruby.h</span><br></pre></td></tr></table></figure>
+
+<p>在linux上一般通过yum去管理包，ruby-devel 在百度上查到很多可以根据rpm去安装的，但是在mac上只有brew ，并且brew下还没有ruby-devel这个包文件，所以想到 rvm是ruby环境管理器，所以就试着用下面的命令安装了ruby-devel这个ruby开发包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rvm install ruby-devel</span><br></pre></td></tr></table></figure>
+
+<p>然后</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[sudo] gem install gollum</span><br></pre></td></tr></table></figure>
+
+<p><font color="red">成功</font></p>
+<p>默认gollum启动的接口为4567</p>
+<p><a href="http://127.0.0.1:4567" target="_blank" rel="noopener">http://127.0.0.1:4567</a> 就可以新建一个wiki页面进行编辑了</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/gitlab_wiki%E6%93%8D%E4%BD%9C/" data-id="ck77fr38g0004l2tpdpve0o5s" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-linux查看系统信息命令" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/linux%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%91%BD%E4%BB%A4/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/linux%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%91%BD%E4%BB%A4/">linux查看系统信息命令</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="uname-a-查看内核-操作系统-CPU信息"><a href="#uname-a-查看内核-操作系统-CPU信息" class="headerlink" title="uname -a # 查看内核/操作系统/CPU信息"></a>uname -a # 查看内核/操作系统/CPU信息</h1><h1 id="head-n-1-etc-issue-查看操作系统版本"><a href="#head-n-1-etc-issue-查看操作系统版本" class="headerlink" title="head -n 1 /etc/issue # 查看操作系统版本"></a>head -n 1 /etc/issue # 查看操作系统版本</h1><h1 id="cat-proc-cpuinfo-查看CPU信息"><a href="#cat-proc-cpuinfo-查看CPU信息" class="headerlink" title="cat /proc/cpuinfo # 查看CPU信息"></a>cat /proc/cpuinfo # 查看CPU信息</h1><h1 id="hostname-查看计算机名"><a href="#hostname-查看计算机名" class="headerlink" title="hostname # 查看计算机名"></a>hostname # 查看计算机名</h1><h1 id="lspci-tv-列出所有PCI设备"><a href="#lspci-tv-列出所有PCI设备" class="headerlink" title="lspci -tv # 列出所有PCI设备"></a>lspci -tv # 列出所有PCI设备</h1><h1 id="lsusb-tv-列出所有USB设备"><a href="#lsusb-tv-列出所有USB设备" class="headerlink" title="lsusb -tv # 列出所有USB设备"></a>lsusb -tv # 列出所有USB设备</h1><h1 id="lsmod-列出加载的内核模块"><a href="#lsmod-列出加载的内核模块" class="headerlink" title="lsmod # 列出加载的内核模块"></a>lsmod # 列出加载的内核模块</h1><h1 id="env-查看环境变量资源"><a href="#env-查看环境变量资源" class="headerlink" title="env # 查看环境变量资源"></a>env # 查看环境变量资源</h1><h1 id="free-m-查看内存使用量和交换区使用量"><a href="#free-m-查看内存使用量和交换区使用量" class="headerlink" title="free -m # 查看内存使用量和交换区使用量"></a>free -m # 查看内存使用量和交换区使用量</h1><h1 id="df-h-查看各分区使用情况"><a href="#df-h-查看各分区使用情况" class="headerlink" title="df -h # 查看各分区使用情况"></a>df -h # 查看各分区使用情况</h1><h1 id="du-sh-lt-目录名-gt-查看指定目录的大小"><a href="#du-sh-lt-目录名-gt-查看指定目录的大小" class="headerlink" title="du -sh &lt;目录名&gt; # 查看指定目录的大小"></a>du -sh &lt;目录名&gt; # 查看指定目录的大小</h1><h1 id="grep-MemTotal-proc-meminfo-查看内存总量"><a href="#grep-MemTotal-proc-meminfo-查看内存总量" class="headerlink" title="grep MemTotal /proc/meminfo # 查看内存总量"></a>grep MemTotal /proc/meminfo # 查看内存总量</h1><h1 id="grep-MemFree-proc-meminfo-查看空闲内存量"><a href="#grep-MemFree-proc-meminfo-查看空闲内存量" class="headerlink" title="grep MemFree /proc/meminfo # 查看空闲内存量"></a>grep MemFree /proc/meminfo # 查看空闲内存量</h1><h1 id="uptime-查看系统运行时间、用户数、负载"><a href="#uptime-查看系统运行时间、用户数、负载" class="headerlink" title="uptime # 查看系统运行时间、用户数、负载"></a>uptime # 查看系统运行时间、用户数、负载</h1><h1 id="cat-proc-loadavg-查看系统负载磁盘和分区"><a href="#cat-proc-loadavg-查看系统负载磁盘和分区" class="headerlink" title="cat /proc/loadavg # 查看系统负载磁盘和分区"></a>cat /proc/loadavg # 查看系统负载磁盘和分区</h1><h1 id="mount-column-t-查看挂接的分区状态"><a href="#mount-column-t-查看挂接的分区状态" class="headerlink" title="mount | column -t # 查看挂接的分区状态"></a>mount | column -t # 查看挂接的分区状态</h1><h1 id="fdisk-l-查看所有分区"><a href="#fdisk-l-查看所有分区" class="headerlink" title="fdisk -l # 查看所有分区"></a>fdisk -l # 查看所有分区</h1><h1 id="swapon-s-查看所有交换分区"><a href="#swapon-s-查看所有交换分区" class="headerlink" title="swapon -s # 查看所有交换分区"></a>swapon -s # 查看所有交换分区</h1><h1 id="hdparm-i-dev-hda-查看磁盘参数-仅适用于IDE设备"><a href="#hdparm-i-dev-hda-查看磁盘参数-仅适用于IDE设备" class="headerlink" title="hdparm -i /dev/hda # 查看磁盘参数(仅适用于IDE设备)"></a>hdparm -i /dev/hda # 查看磁盘参数(仅适用于IDE设备)</h1><h1 id="dmesg-grep-IDE-查看启动时IDE设备检测状况网络"><a href="#dmesg-grep-IDE-查看启动时IDE设备检测状况网络" class="headerlink" title="dmesg | grep IDE # 查看启动时IDE设备检测状况网络"></a>dmesg | grep IDE # 查看启动时IDE设备检测状况网络</h1><h1 id="ifconfig-查看所有网络接口的属性"><a href="#ifconfig-查看所有网络接口的属性" class="headerlink" title="ifconfig # 查看所有网络接口的属性"></a>ifconfig # 查看所有网络接口的属性</h1><h1 id="iptables-L-查看防火墙设置"><a href="#iptables-L-查看防火墙设置" class="headerlink" title="iptables -L # 查看防火墙设置"></a>iptables -L # 查看防火墙设置</h1><h1 id="route-n-查看路由表"><a href="#route-n-查看路由表" class="headerlink" title="route -n # 查看路由表"></a>route -n # 查看路由表</h1><h1 id="netstat-lntp-查看所有监听端口"><a href="#netstat-lntp-查看所有监听端口" class="headerlink" title="netstat -lntp # 查看所有监听端口"></a>netstat -lntp # 查看所有监听端口</h1><h1 id="netstat-antp-查看所有已经建立的连接"><a href="#netstat-antp-查看所有已经建立的连接" class="headerlink" title="netstat -antp # 查看所有已经建立的连接"></a>netstat -antp # 查看所有已经建立的连接</h1><h1 id="netstat-s-查看网络统计信息进程"><a href="#netstat-s-查看网络统计信息进程" class="headerlink" title="netstat -s # 查看网络统计信息进程"></a>netstat -s # 查看网络统计信息进程</h1><h1 id="ps-ef-查看所有进程"><a href="#ps-ef-查看所有进程" class="headerlink" title="ps -ef # 查看所有进程"></a>ps -ef # 查看所有进程</h1><h1 id="top-实时显示进程状态用户"><a href="#top-实时显示进程状态用户" class="headerlink" title="top # 实时显示进程状态用户"></a>top # 实时显示进程状态用户</h1><h1 id="w-查看活动用户"><a href="#w-查看活动用户" class="headerlink" title="w # 查看活动用户"></a>w # 查看活动用户</h1><h1 id="id-lt-用户名-gt-查看指定用户信息"><a href="#id-lt-用户名-gt-查看指定用户信息" class="headerlink" title="id &lt;用户名&gt; # 查看指定用户信息"></a>id &lt;用户名&gt; # 查看指定用户信息</h1><h1 id="last-查看用户登录日志"><a href="#last-查看用户登录日志" class="headerlink" title="last # 查看用户登录日志"></a>last # 查看用户登录日志</h1><h1 id="cut-d-f1-etc-passwd-查看系统所有用户"><a href="#cut-d-f1-etc-passwd-查看系统所有用户" class="headerlink" title="cut -d- -f1 /etc/passwd # 查看系统所有用户"></a>cut -d- -f1 /etc/passwd # 查看系统所有用户</h1><h1 id="cut-d-f1-etc-group-查看系统所有组"><a href="#cut-d-f1-etc-group-查看系统所有组" class="headerlink" title="cut -d- -f1 /etc/group # 查看系统所有组"></a>cut -d- -f1 /etc/group # 查看系统所有组</h1><h1 id="crontab-l-查看当前用户的计划任务服务"><a href="#crontab-l-查看当前用户的计划任务服务" class="headerlink" title="crontab -l # 查看当前用户的计划任务服务"></a>crontab -l # 查看当前用户的计划任务服务</h1><h1 id="chkconfig-–list-列出所有系统服务"><a href="#chkconfig-–list-列出所有系统服务" class="headerlink" title="chkconfig –list # 列出所有系统服务"></a>chkconfig –list # 列出所有系统服务</h1><h1 id="chkconfig-–list-grep-on-列出所有启动的系统服务程序"><a href="#chkconfig-–list-grep-on-列出所有启动的系统服务程序" class="headerlink" title="chkconfig –list | grep on # 列出所有启动的系统服务程序"></a>chkconfig –list | grep on # 列出所有启动的系统服务程序</h1><h1 id="rpm-qa-查看所有安装的软件包"><a href="#rpm-qa-查看所有安装的软件包" class="headerlink" title="rpm -qa # 查看所有安装的软件包"></a>rpm -qa # 查看所有安装的软件包</h1>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/linux%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%91%BD%E4%BB%A4/" data-id="ck77fr38i0005l2tpe0yf7dpe" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-linux问题" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/linux%E9%97%AE%E9%A2%98/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/linux%E9%97%AE%E9%A2%98/">linux问题</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1.sudo pip install  时， sudo: pip：找不到命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">解决方法：</span><br><span class="line">1.修改文件 &#x2F;etc&#x2F;sudoers</span><br><span class="line">   sudo vi &#x2F;etc&#x2F;sudoers</span><br><span class="line">   修改  Defaults  env_reset  这一行内容 为   Defaults   !env_reset</span><br><span class="line"></span><br><span class="line">2.修改文件 .bashrc</span><br><span class="line">	sudo vi .bashrc</span><br><span class="line">	在文件末尾添加  alias sudo&#x3D;&#39;sudo env PATH&#x3D;$PATH&#39;</span><br><span class="line">	</span><br><span class="line">	source .bashrc</span><br><span class="line">[附录sudo的作用的文章 https:&#x2F;&#x2F;www.ibm.com&#x2F;developerworks&#x2F;cn&#x2F;aix&#x2F;library&#x2F;au-sudo&#x2F;index.html]</span><br></pre></td></tr></table></figure>
+
+<p>2.centos7 使用yum进行install 出现 KeyboardInterrupt</p>
+<p>错误信息 </p>
+<p>File”/usr/lib/python2.7/site-packages/urlgrabber/grabber.py”,line1517,in_do_perform<br>raiseKeyboardInterrupt</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">解决方法：</span><br><span class="line">1.打开文件 &#x2F;usr&#x2F;lib&#x2F;python2.7&#x2F;site-packages&#x2F;urlgrabber&#x2F;grabber.py </span><br><span class="line">2.在1510行 (通过::1510 可以定位到)找到代码  elif errcode in (42,55,56): </span><br><span class="line">3.修改上面代码为 elif errcode &#x3D;&#x3D; 42:</span><br><span class="line">4.保存退出即可</span><br></pre></td></tr></table></figure>
+
+
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/linux%E9%97%AE%E9%A2%98/" data-id="ck77fr38k0006l2tpg4kkg6jj" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-python语法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/python%E8%AF%AD%E6%B3%95/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/python%E8%AF%AD%E6%B3%95/">python语法</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1.正则</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#正则去按照正则的组去替换文本</span></span><br><span class="line">pattern = re.compile(<span class="string">r'\[(.*?)\]/fzjg'</span>)</span><br><span class="line">testContent = pattern.sub(<span class="string">r'\1'</span>, fileContent)</span><br><span class="line"><span class="comment">#将fileContent中所有符合pattern的文本内容替换为 pattern匹配组1的内容</span></span><br><span class="line"><span class="comment">#例： [2013年7月11日，被告人乌某对被害人刘某谎称自己有工作，从被害人刘某处借款人民币50,000元。]/fzjg案发后偿还了人民币26,000元。</span></span><br><span class="line"><span class="comment">#结果为：2013年7月11日，被告人乌某对被害人刘某谎称自己有工作，从被害人刘某处借款人民币50,000元。案发后偿还了人民币26,000元。</span></span><br></pre></td></tr></table></figure>
+
+<p>2.在单独的python脚本中引入另一个目录中的python脚本</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">basedir = os.path.abspath(os.path.dirname(__file__))</span><br><span class="line">basedir = basedir.split(<span class="string">"service"</span>)[<span class="number">0</span>]</span><br><span class="line">sys.path.append(basedir)  <span class="comment">#重要的一部分  将需要引入的那个目录加到python系统路径中之后再引用</span></span><br><span class="line"><span class="keyword">from</span> service.dataBase.db_conn <span class="keyword">import</span> MySQLSingle</span><br></pre></td></tr></table></figure>
+
+<p>3.python装饰器</p>
+<p>对于给已有函数添加额外功能并且不影响已有函数很有用</p>
+<p>functools 中wrap的使用</p>
+<p><a href="http://python.jobbole.com/82344/" target="_blank" rel="noopener">http://python.jobbole.com/82344/</a></p>
+<p><a href="http://lib.csdn.net/article/python/62942" target="_blank" rel="noopener">http://lib.csdn.net/article/python/62942</a></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">deco1</span><span class="params">(func)</span>:</span></span><br><span class="line">    print(<span class="string">'deco1'</span>)</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">()</span>:</span></span><br><span class="line">        print(<span class="string">'deco1 wrapper'</span>)</span><br><span class="line">        func()</span><br><span class="line">        print(<span class="string">'deco1 wraper end'</span>)</span><br><span class="line">    <span class="keyword">return</span> wrapper</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">deco2</span><span class="params">(func)</span>:</span></span><br><span class="line">    print(<span class="string">'deco2'</span>)</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">()</span>:</span></span><br><span class="line">        print(<span class="string">'deco2 wrapper'</span>)</span><br><span class="line">        func()</span><br><span class="line">        print(<span class="string">'deco2 wraper end'</span>)</span><br><span class="line">    <span class="keyword">return</span> wrapper</span><br><span class="line"></span><br><span class="line"><span class="meta">@deco1</span></span><br><span class="line"><span class="meta">@deco2</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">aa</span><span class="params">()</span>:</span></span><br><span class="line">    print(<span class="string">'aa'</span>)</span><br><span class="line"></span><br><span class="line">aa()</span><br><span class="line"></span><br><span class="line"><span class="comment">#上面 装饰器 @deco1 @deco2从下向上执行</span></span><br><span class="line"><span class="comment">#先执行deco2  @deco2 就相当于执行   func2 = deco2(aa)    这时输出  deco2  返回 deco2的内函数 wrapper</span></span><br><span class="line"><span class="comment">#然后执行deco1 @deco1 就相当于执行 func1 = deco1(func2) = deco1(deco2(aa))  这里的func2就是 deco2的wrapper  这是输出 deco1 wrapper 然后返回 deco1的wraper</span></span><br><span class="line"><span class="comment">#最后的结果aa()就是 执行了 deco1的wraper函数</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">输出</span><br><span class="line">deco2</span><br><span class="line">deco1</span><br><span class="line">deco1 wrapper</span><br><span class="line">deco2 wrapper</span><br><span class="line">aa</span><br><span class="line">deco2 wraper end</span><br><span class="line">deco1 wraper end</span><br></pre></td></tr></table></figure>
+
+<p>4.python 访问数据库单例模式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"># -*- coding: utf-8 -*-</span><br><span class="line"># @Time    : 2018&#x2F;10&#x2F;9 17:27</span><br><span class="line"># @Author  : xjzhang</span><br><span class="line"># @Site    : </span><br><span class="line"># @File    : db_conn.py</span><br><span class="line"># @Desc    :</span><br><span class="line"># @Software: PyCharm</span><br><span class="line">import pymysql</span><br><span class="line">from functools import wraps</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def singleton(cls):</span><br><span class="line">    instances &#x3D; &#123;&#125;</span><br><span class="line"></span><br><span class="line">    @wraps(cls)</span><br><span class="line">    def get_instance(*args, **kw):</span><br><span class="line">        if cls not in instances:</span><br><span class="line">            instances[cls] &#x3D; cls(*args, **kw)</span><br><span class="line">        return instances[cls]</span><br><span class="line">    return get_instance</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 数据库连接实例</span><br><span class="line">@singleton</span><br><span class="line">class MySQLSingle(object):</span><br><span class="line">    def __init__(self, conn&#x3D;&#39;&#39;):</span><br><span class="line">        self.conn &#x3D; conn</span><br><span class="line"></span><br><span class="line">    def get_conn(self,host_mysql, port_mysql, user_name_mysql, password_mysql, database):</span><br><span class="line">        try:</span><br><span class="line">            self.conn &#x3D; pymysql.connect(host&#x3D;host_mysql, port&#x3D;port_mysql, user&#x3D;user_name_mysql, password&#x3D;password_mysql, database&#x3D;database,</span><br><span class="line">                                        charset&#x3D;&#39;utf8&#39;)</span><br><span class="line">        except Exception as e:</span><br><span class="line">            print(&#39;File to connect database: %s&#39; % e)</span><br><span class="line">        return self.conn</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">from service.dataBase.db_conn import MySQLSingle</span><br><span class="line"></span><br><span class="line">def get_train_data(train_path):</span><br><span class="line">    mysql_single &#x3D; MySQLSingle()</span><br><span class="line">    conn &#x3D; mysql_single.get_conn(&#39;10.1.245.214&#39;,31306,&#39;lsop&#39;,&#39;lsop&#39;,&#39;lsop&#39;)</span><br><span class="line">    with conn.cursor() as cursor:</span><br><span class="line">        sql &#x3D; &quot;select id,case_theme from lsop_law_by_case&quot;</span><br><span class="line">        cursor.execute(sql)</span><br><span class="line">        all &#x3D; cursor.fetchall()</span><br><span class="line">        with open(train_path,&#39;w&#39;) as trainFile:</span><br><span class="line">            trainFile.write(&#39;id\ttheme\n&#39;)</span><br><span class="line">            for id,theme in all:</span><br><span class="line">                trainFile.write(id+&#39;\t&#39;+theme+&#39;\n&#39;)</span><br><span class="line">    conn.close()</span><br></pre></td></tr></table></figure>
+
+<p>5.爬虫-反爬策略</p>
+<p><img src="/2020/02/29/python%E8%AF%AD%E6%B3%95/Users/zhangxuejing/Documents/文档/爬虫策略.png" alt="爬虫策略"></p>
+<p>6.python中 <strong>repr</strong>函数</p>
+<pre><code>如果复写对象的这个函数 可以修改对象的输出信息</code></pre><ol start="7">
+<li><p>安装好python后，然后使用pip install python包的时候经常会遇到一些ssl问题</p>
+<p>Could not fetch URL <a href="https://pypi.org/simple/jieba/" target="_blank" rel="noopener">https://pypi.org/simple/jieba/</a>: There was a problem confirming the ssl certificate: HTTPSConnectionPool(host=’pypi.org’, port=443): Max retries exceeded with url: /simple/jieba/ (Caused by SSLError(SSLError(1, ‘[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:847)’),)) - skipping</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">解决： 因为这个 https://pypi.org这个pip源在国内不能用需要更换pip源</span><br><span class="line">修改源方法</span><br><span class="line">mkdir ~/.pip </span><br><span class="line">vim ~/.pip/pip.conf</span><br><span class="line">[global]</span><br><span class="line">index-url = http://mirrors.aliyun.com/pypi/simple/</span><br><span class="line">[install]</span><br><span class="line">trusted-host = mirrors.aliyun.com</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">pip国内镜像源。</span><br><span class="line"></span><br><span class="line">阿里云 http:&#x2F;&#x2F;mirrors.aliyun.com&#x2F;pypi&#x2F;simple&#x2F;</span><br><span class="line">中国科技大学 https:&#x2F;&#x2F;pypi.mirrors.ustc.edu.cn&#x2F;simple&#x2F;</span><br><span class="line">豆瓣 http:&#x2F;&#x2F;pypi.douban.com&#x2F;simple</span><br><span class="line">Python官方 https:&#x2F;&#x2F;pypi.python.org&#x2F;simple&#x2F;  </span><br><span class="line">v2ex http:&#x2F;&#x2F;pypi.v2ex.com&#x2F;simple&#x2F;</span><br><span class="line">中国科学院 http:&#x2F;&#x2F;pypi.mirrors.opencas.cn&#x2F;simple&#x2F;</span><br><span class="line">清华大学 https:&#x2F;&#x2F;pypi.tuna.tsinghua.edu.cn&#x2F;simple&#x2F;</span><br></pre></td></tr></table></figure>
+
+<p>8.在centos中不能正常显示中文，所有中文都是乱码</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">解决：</span><br><span class="line">通过locale查看 本地字符集设置</span><br><span class="line">正常为下面的列表时可以显示utf-8编码的中文字符，但是现在都是zh_en.UTF-8</span><br><span class="line">LANG=zh_CN.UTF-8</span><br><span class="line">LC_CTYPE="zh_CN.UTF-8"</span><br><span class="line">LC_NUMERIC="zh_CN.UTF-8"</span><br><span class="line">LC_TIME="zh_CN.UTF-8"</span><br><span class="line">LC_COLLATE="zh_CN.UTF-8"</span><br><span class="line">LC_MONETARY="zh_CN.UTF-8"</span><br><span class="line">LC_MESSAGES="zh_CN.UTF-8"</span><br><span class="line">LC_PAPER="zh_CN.UTF-8"</span><br><span class="line">LC_NAME="zh_CN.UTF-8"</span><br><span class="line">LC_ADDRESS="zh_CN.UTF-8"</span><br><span class="line">LC_TELEPHONE="zh_CN.UTF-8"</span><br><span class="line">LC_MEASUREMENT="zh_CN.UTF-8"</span><br><span class="line">LC_IDENTIFICATION="zh_CN.UTF-8"</span><br><span class="line">LC_ALL=zh_CN.UTF-8</span><br><span class="line"></span><br><span class="line">此时可以修改locale</span><br><span class="line">通过 locale -a | grep zh  查看是否有 zh_CN.UTF-8的字符集</span><br><span class="line">如果有 在.bashrc中添加 export LC_ALL=zh_CN.UTF-8  然后 source .bashrc即可</span><br><span class="line">如果没有，可以在其他正常的centos系统中 /usr/lib/locale/目录下拷贝locale-archive 覆盖 当前机器系统的 /usr/lib/locale/ 的locale-archive 然后重复上面操作</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/python%E8%AF%AD%E6%B3%95/" data-id="ck77fr38n0009l2tp1mwlfwr9" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-vue原理" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/vue%E5%8E%9F%E7%90%86/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/vue%E5%8E%9F%E7%90%86/">vue原理</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1.vue项目启动原理</p>
+<p><a href="https://blog.csdn.net/cxf8881/article/details/80620545" target="_blank" rel="noopener">https://blog.csdn.net/cxf8881/article/details/80620545</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/vue%E5%8E%9F%E7%90%86/" data-id="ck77fr38p000al2tp7ycm3yl1" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-博客运营指南" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/dev-help/">dev-help</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97/">博客运营指南</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h5 id="1-拉取github中博客源码所在分支"><a href="#1-拉取github中博客源码所在分支" class="headerlink" title="1.拉取github中博客源码所在分支"></a>1.拉取github中博客源码所在分支</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b wq_blog https:&#x2F;&#x2F;github.com&#x2F;wqwangchn&#x2F;wqwangchn.github.io.git</span><br></pre></td></tr></table></figure>
+<h5 id="2-确保切换至博客源码所在分支"><a href="#2-确保切换至博客源码所在分支" class="headerlink" title="2.确保切换至博客源码所在分支"></a>2.确保切换至博客源码所在分支</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b wq_blog origin&#x2F;wq_blog</span><br></pre></td></tr></table></figure>
+<h5 id="3-进入博客文章目录"><a href="#3-进入博客文章目录" class="headerlink" title="3.进入博客文章目录"></a>3.进入博客文章目录</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd source&#x2F;_posts&#x2F;</span><br><span class="line">pwd</span><br><span class="line">  wqwangchn.github.io&#x2F;source&#x2F;_posts</span><br></pre></td></tr></table></figure>
+
+<h5 id="4-撰写博文"><a href="#4-撰写博文" class="headerlink" title="4.撰写博文"></a>4.撰写博文</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vim 博客运营指南.md</span><br><span class="line">balabala</span><br></pre></td></tr></table></figure>
+<h5 id="5-将代码push到github上的源码分支"><a href="#5-将代码push到github上的源码分支" class="headerlink" title="5.将代码push到github上的源码分支"></a>5.将代码push到github上的源码分支</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &#39;update&#39;</span><br><span class="line">git push origin wq_blog</span><br><span class="line">&gt;&gt;Username for &#39;https:&#x2F;&#x2F;github.com&#39;: wqwangchn</span><br><span class="line">&gt;&gt;Password for &#39;https:&#x2F;&#x2F;wqwangchn@github.com&#39;:*********4.2*</span><br></pre></td></tr></table></figure>
+<h5 id="6-稍等一分钟，自动发博文到网站上"><a href="#6-稍等一分钟，自动发博文到网站上" class="headerlink" title="6.稍等一分钟，自动发博文到网站上"></a>6.稍等一分钟，自动发博文到网站上</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">good job！！！</span><br></pre></td></tr></table></figure>
+
+<p>##</p>
+<h6 id="主题美化-https-www-aisun-org-2017-09-hexo-github-pages"><a href="#主题美化-https-www-aisun-org-2017-09-hexo-github-pages" class="headerlink" title="主题美化 https://www.aisun.org/2017/09/hexo+github+pages/"></a>主题美化 <a href="https://www.aisun.org/2017/09/hexo+github+pages/" target="_blank" rel="noopener">https://www.aisun.org/2017/09/hexo+github+pages/</a></h6>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/%E5%8D%9A%E5%AE%A2%E8%BF%90%E8%90%A5%E6%8C%87%E5%8D%97/" data-id="ck77fr38r000dl2tp9x6mboao" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-小宝贝快快睡" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/%E5%B0%8F%E5%AE%9D%E8%B4%9D%E5%BF%AB%E5%BF%AB%E7%9D%A1/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%84%BF%E6%AD%8C/">儿歌</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/%E5%B0%8F%E5%AE%9D%E8%B4%9D%E5%BF%AB%E5%BF%AB%E7%9D%A1/">小宝贝快快睡</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="小宝贝快快睡"><a href="#小宝贝快快睡" class="headerlink" title="小宝贝快快睡"></a>小宝贝快快睡</h2><p>小宝贝快快睡<br>梦中会有我相随<br>陪你笑陪你累<br>有我相依偎<br>小宝贝快快睡<br>你会梦到我几回<br>有我在梦最美<br>梦醒也安慰</p>
+<p>花儿随流水<br>日头抱春归<br>粉面含笑微不露<br>嘴角衔颗相思泪<br>山间鸟徘徊<br>彩霞伴双飞<br>惊鸿一蔑莫后退<br>离开也让春风醉</p>
+<p>看蒙蒙的睡眼<br>有谁值得你留恋<br>同林鸟分飞雁<br>一切是梦魇<br>传说中神话里<br>梦中的我在梦你<br>神仙说梦会醒<br>可是我不听</p>
+<p>流水葬落花<br>更凭添牵挂<br>尝过相思百味苦<br>从此对情更邋遢<br>寒风催五谷<br>遥风到天涯<br>枯木也能发新芽<br>馨香播种摇篮下</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/%E5%B0%8F%E5%AE%9D%E8%B4%9D%E5%BF%AB%E5%BF%AB%E7%9D%A1/" data-id="ck77fr38s000el2tpafeh6pm5" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-改善python程序91个建议" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/%E6%94%B9%E5%96%84python%E7%A8%8B%E5%BA%8F91%E4%B8%AA%E5%BB%BA%E8%AE%AE/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/%E6%94%B9%E5%96%84python%E7%A8%8B%E5%BA%8F91%E4%B8%AA%E5%BB%BA%E8%AE%AE/">改善python程序91个建议</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>本篇文档是对 《编写高质量代码改善Python程序的91个建议》一书的记录</p>
+<p>Pythonic代码 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">优美胜于丑陋（Python 以编写优美的代码为目标）</span><br><span class="line">明了胜于晦涩（优美的代码应当是明了的，命名规范，风格相似）</span><br><span class="line">简洁胜于复杂（优美的代码应当是简洁的，不要有复杂的内部实现）</span><br><span class="line">复杂胜于凌乱（如果复杂不可避免，那代码间也不能有难懂的关系，要保持接口简洁）</span><br><span class="line">扁平胜于嵌套（优美的代码应当是扁平的，不能有太多的嵌套）</span><br><span class="line">间隔胜于紧凑（优美的代码有适当的间隔，不要奢望一行代码解决问题）</span><br><span class="line">可读性很重要（优美的代码是可读的）</span><br><span class="line">--Python之禅</span><br></pre></td></tr></table></figure>
+
+<p>1.交换变量</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a,b &#x3D; b,a   #充分利用python特色很简洁</span><br></pre></td></tr></table></figure>
+
+<p>2.迭代列表</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">for i in alist:</span><br><span class="line">	do_something(i)</span><br></pre></td></tr></table></figure>
+
+<p>3.倒序列表或者字符串</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; [1,2,3,4]</span><br><span class="line">b &#x3D; &#39;abcdefg&#39;</span><br><span class="line">print(a[::-1])</span><br><span class="line">print(b[::-1]) #不可取 因为不太具有可读性 不太容易理解</span><br><span class="line"></span><br><span class="line">可以变为使用 reversed函数</span><br><span class="line">print(list(reversed(a)))</span><br><span class="line">print(list(reversed(b)))</span><br></pre></td></tr></table></figure>
+
+<p>4.输出</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">print &#39;Hello %s!&#39; % (&#39;Tom&#39;,)</span><br><span class="line"></span><br><span class="line">但是当变量数量多时 可读性变差，可以使用下面的方式</span><br><span class="line">print  &#39;Hello %(name)s!&#39; % &#123;&#39;name&#39;:&#39;Tom&#39;&#125;</span><br><span class="line"></span><br><span class="line">举例：</span><br><span class="line">value &#x3D; &#123;&#39;greet&#39;:&#39;Hello word&#39;,&#39;language&#39;:&#39;python&#39;&#125;</span><br><span class="line">print &#39;%(greet)s from %(language)s&#39; % value</span><br><span class="line"></span><br><span class="line">但是%占位符源于对python的先验知识，对于新手有点不明白，所以下面的代码更合适</span><br><span class="line">print &#39;&#123;greet&#125; from &#123;language&#125;&#39;.format(greet&#x3D;&#39;Hello word&#39;,language&#x3D;&#39;python&#39;)</span><br><span class="line">[上面利用的是 python的  str.format() 这个方法]</span><br></pre></td></tr></table></figure>
+
+<p>5.关于包和模块</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">包和模块的命名采用小写，单数形式，而且短小</span><br><span class="line">包通常仅作为命名空间，如只包含空的__init__.py文件</span><br></pre></td></tr></table></figure>
+
+<p>6.编写Pythonic代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">1.避免劣化代码</span><br><span class="line">	(1).避免只用大小写来区分不同的对象，如 变量a 是数值类型  变量A为字符串类型</span><br><span class="line">	(2).避免使用容易引起混淆的名称，变量名要和所解决的问题一致</span><br><span class="line">	(3).不要害怕过长的变量名，不要为了少些几个字符过分缩写，例如 person_info 的可读性比 pi 高很多</span><br><span class="line">2.深入认识python</span><br><span class="line">	(1).全面掌握Python提供给我们的所有特性，包括语言特性和库特性。其中最好的学习方式就是通读官方手册中的Language Reference 和 Library Reference。掌握了语言特性和库特性，就会利用很多python的惯用法。</span><br><span class="line">	(2).随着python的迭代更新，不断学习新版本中更新的特性</span><br><span class="line">	(3).深入学习业界公认的比较Pythonic的代码 如 flask,gevent,requests等</span><br><span class="line">3.利用工具  (pip install pep8) 检测不符合代码格式的代码</span><br><span class="line">4.注释的艺术</span><br><span class="line">	(1)不写无用的注释</span><br><span class="line">	(2)注释那些别人难以理解的或者不够一目了然的代码</span><br><span class="line">	(3)注释和代码隔开一定距离 例：x&#x3D;x+1       #increace x by 1</span><br><span class="line">	(4)给外部可访问的函数和方法添加文档注释(函数注释要形成一定的规范，可参考python第三方库中的注释)</span><br><span class="line">	(5)推荐在文件头添加 copyright,模块声明 等信息</span><br><span class="line">	(6)注释是对代码的功能，原因以及想法进行注释 不要做一些无用的注释</span><br><span class="line">	(7)代码与注释同步更新</span><br><span class="line">5.常量的管理</span><br><span class="line">	(1)常量名所有字母大写 用下划线连接</span><br><span class="line">	(2)可以通过自定义的类实现常量功能。需要符合 命名全部为大写和值一旦绑定不可修改</span><br><span class="line">		</span><br><span class="line">		const.py</span><br><span class="line">		class _const:</span><br><span class="line">			class ConstError(TypeError):pass</span><br><span class="line">			class ConstCaseError(ConstError):pass</span><br><span class="line">			</span><br><span class="line">			def __setattr__(self,name,value):</span><br><span class="line">				if name in self.__dict__.keys():</span><br><span class="line">					raise self.ConstError,&quot;can&#39;t change const.%s&quot; % name</span><br><span class="line">				if not name.isupper():</span><br><span class="line">					raise self.ConstCaseErrpr,&#39;const name &quot;%s&quot; is not all uppercase&#39; % name</span><br><span class="line">				self.__dict__[name] &#x3D; value</span><br><span class="line">		</span><br><span class="line">	import sys</span><br><span class="line">	sys.modules[__name__] &#x3D; _const()</span><br><span class="line">	</span><br><span class="line">	test.py</span><br><span class="line">	import const</span><br><span class="line">	const.NAME &#x3D; &#39;zhang&#39;</span><br><span class="line">	</span><br><span class="line">	##</span><br><span class="line">	这里第一次接触这样定义常量，需要理解 __name__ ，sys.modules，import 和 from...import...区别</span><br><span class="line">	(1)__name__是python模块中的一个变量  用来表示模块名。如果在本模块中打印则__name__为__main__，如果这个模块在其他模块中被调用 则name为模块名称</span><br><span class="line">	(2)sys.modules 是一个全局的字典 里面存放了和模块名对应的模块， python运行时会放在内存中</span><br><span class="line">	(3) import 模块 ???</span><br><span class="line">	##</span><br></pre></td></tr></table></figure>
+
+<p>惯用法</p>
+<p>1.assert 断言的使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">不要滥用断言</span><br><span class="line">断言实际用来捕获用户定义的约束的，当条件是业务逻辑继续下去的先决条件时可以使用断言。如 前面代码必须要保证变量x,和y一致，而下面业务进行下去的条件是x和y一致 可以使用断言 assert x&#x3D;&#x3D;y,&#39;not equal&#39;</span><br><span class="line">当函数调用后，需要确认返回值是否合理时可以使用断言</span><br></pre></td></tr></table></figure>
+
+<p>2.数据交换值时不建议使用中间变量</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">temp &#x3D; x</span><br><span class="line">x &#x3D; y</span><br><span class="line">y &#x3D; temp</span><br><span class="line"></span><br><span class="line">与代码</span><br><span class="line">x,y &#x3D; y,x </span><br><span class="line"></span><br><span class="line">比较下面的方法更加pyhtonic 并且也更加高效</span><br></pre></td></tr></table></figure>
+
+<p>3.充分利用 Lazy evaluation （延迟计算，惰性计算）的优势，即在真正需要计算的时候才计算的表达式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">(1).避免不必要的计算，比如 if x and y 时 要将x和y中为False的几率大的放在前面 和 if x or y 将为True几率大的放在前面。 </span><br><span class="line">(2).节省空间，python最典型的延迟计算就是使用 生成器表达式，仅仅在每次需要的时候才通过yield产生数据，例如斐波那契数列，就不会出现在其他语言中while True时遇到的无限循环的例子</span><br><span class="line"> 	def fib():</span><br><span class="line"> 		a,b &#x3D; 0,1</span><br><span class="line"> 		while True:</span><br><span class="line"> 			yield a</span><br><span class="line"> 			a,b &#x3D; b,a+b</span><br><span class="line"> 	from itertools import islice</span><br><span class="line"> 	print(list(islice(fib(),5)))  #[0，1，1，2，3]</span><br></pre></td></tr></table></figure>
+
+<p>4.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/%E6%94%B9%E5%96%84python%E7%A8%8B%E5%BA%8F91%E4%B8%AA%E5%BB%BA%E8%AE%AE/" data-id="ck77fr38v000hl2tp9ib37tdi" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-源码算法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/%E6%BA%90%E7%A0%81%E7%AE%97%E6%B3%95/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/02/29/%E6%BA%90%E7%A0%81%E7%AE%97%E6%B3%95/">源码算法</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Synonyms</p>
+<p>今天 “爱可可爱生活” 推荐的句子相似度和近义词的第三方包  Synonyms 测试了一下</p>
+<p>看了一下里面的句子相似度算法</p>
+<p>大致流程</p>
+<p>1.句子分词 去 停用词</p>
+<p>2.对句子中的词 通过word2vec 计算词向量</p>
+<p>3.然后计算当前词的10个近义词  并获取近义词的 词向量</p>
+<p>4.将当前词和近义词的词向量进行 横向求平均  得到一个平均的词向量</p>
+<p>5.对整个句子的词向量进行横向求和  得到一个一维的句子向量</p>
+<p>6.然后对另一个句子同样的操作求的句子向量</p>
+<p>7.然后求两个句子向量的范式(可以理解为句子向量距离）的导数</p>
+<p>8.同时求得两个句子的编辑距离</p>
+<p>9.将两个值加权求和  即作为两个句子的相似度</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/%E6%BA%90%E7%A0%81%E7%AE%97%E6%B3%95/" data-id="ck77fr38w000jl2tphtkj6ptq" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/book/">book</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/dev-help/">dev-help</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/work/">work</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%84%BF%E6%AD%8C/">儿歌</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E7%89%B9%E7%A7%8D%E5%B7%A5%E7%A8%8B/" rel="tag">机器学习,特种工程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%87%91%E8%9E%8D/" rel="tag">金融</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E7%89%B9%E7%A7%8D%E5%B7%A5%E7%A8%8B/" style="font-size: 10px;">机器学习,特种工程</a> <a href="/tags/%E9%87%91%E8%9E%8D/" style="font-size: 10px;">金融</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/02/29/css%E5%B0%8F%E7%9F%A5%E8%AF%86/">css小知识</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/29/gitlab_wiki%E6%93%8D%E4%BD%9C/">gitlab_wiki操作</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/29/linux%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%91%BD%E4%BB%A4/">linux查看系统信息命令</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/29/linux%E9%97%AE%E9%A2%98/">linux问题</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/29/python%E8%AF%AD%E6%B3%95/">python语法</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 wqwang<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>

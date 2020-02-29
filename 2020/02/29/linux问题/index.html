@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>linux问题 | 此会在何年</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="1.sudo pip install  时， sudo: pip：找不到命令 1234567891011解决方法：1.修改文件 &#x2F;etc&#x2F;sudoers   sudo vi &#x2F;etc&#x2F;sudoers   修改  Defaults  env_reset  这一行内容 为   Defaults   !env_reset2.修改文件 .bashrc	sudo vi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="linux问题">
+<meta property="og:url" content="http://ycwang.net.cn/2020/02/29/linux%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:site_name" content="此会在何年">
+<meta property="og:description" content="1.sudo pip install  时， sudo: pip：找不到命令 1234567891011解决方法：1.修改文件 &#x2F;etc&#x2F;sudoers   sudo vi &#x2F;etc&#x2F;sudoers   修改  Defaults  env_reset  这一行内容 为   Defaults   !env_reset2.修改文件 .bashrc	sudo vi">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-02-29T10:00:52.388Z">
+<meta property="article:modified_time" content="2020-02-29T10:00:52.388Z">
+<meta property="article:author" content="wqwang">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="此会在何年" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">此会在何年</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://ycwang.net.cn"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-linux问题" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/29/linux%E9%97%AE%E9%A2%98/" class="article-date">
+  <time datetime="2020-02-29T10:00:52.388Z" itemprop="datePublished">2020-02-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      linux问题
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1.sudo pip install  时， sudo: pip：找不到命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">解决方法：</span><br><span class="line">1.修改文件 &#x2F;etc&#x2F;sudoers</span><br><span class="line">   sudo vi &#x2F;etc&#x2F;sudoers</span><br><span class="line">   修改  Defaults  env_reset  这一行内容 为   Defaults   !env_reset</span><br><span class="line"></span><br><span class="line">2.修改文件 .bashrc</span><br><span class="line">	sudo vi .bashrc</span><br><span class="line">	在文件末尾添加  alias sudo&#x3D;&#39;sudo env PATH&#x3D;$PATH&#39;</span><br><span class="line">	</span><br><span class="line">	source .bashrc</span><br><span class="line">[附录sudo的作用的文章 https:&#x2F;&#x2F;www.ibm.com&#x2F;developerworks&#x2F;cn&#x2F;aix&#x2F;library&#x2F;au-sudo&#x2F;index.html]</span><br></pre></td></tr></table></figure>
+
+<p>2.centos7 使用yum进行install 出现 KeyboardInterrupt</p>
+<p>错误信息 </p>
+<p>File”/usr/lib/python2.7/site-packages/urlgrabber/grabber.py”,line1517,in_do_perform<br>raiseKeyboardInterrupt</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">解决方法：</span><br><span class="line">1.打开文件 &#x2F;usr&#x2F;lib&#x2F;python2.7&#x2F;site-packages&#x2F;urlgrabber&#x2F;grabber.py </span><br><span class="line">2.在1510行 (通过::1510 可以定位到)找到代码  elif errcode in (42,55,56): </span><br><span class="line">3.修改上面代码为 elif errcode &#x3D;&#x3D; 42:</span><br><span class="line">4.保存退出即可</span><br></pre></td></tr></table></figure>
+
+
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ycwang.net.cn/2020/02/29/linux%E9%97%AE%E9%A2%98/" data-id="ck77fr38k0006l2tpg4kkg6jj" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/02/29/linux%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%91%BD%E4%BB%A4/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          linux查看系统信息命令
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/02/29/python%E8%AF%AD%E6%B3%95/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">python语法</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/book/">book</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/dev-help/">dev-help</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/work/">work</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%84%BF%E6%AD%8C/">儿歌</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E7%89%B9%E7%A7%8D%E5%B7%A5%E7%A8%8B/" rel="tag">机器学习,特种工程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%87%91%E8%9E%8D/" rel="tag">金融</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0-%E7%89%B9%E7%A7%8D%E5%B7%A5%E7%A8%8B/" style="font-size: 10px;">机器学习,特种工程</a> <a href="/tags/%E9%87%91%E8%9E%8D/" style="font-size: 10px;">金融</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/02/29/css%E5%B0%8F%E7%9F%A5%E8%AF%86/">css小知识</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/29/gitlab_wiki%E6%93%8D%E4%BD%9C/">gitlab_wiki操作</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/29/linux%E6%9F%A5%E7%9C%8B%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF%E5%91%BD%E4%BB%A4/">linux查看系统信息命令</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/29/linux%E9%97%AE%E9%A2%98/">linux问题</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/29/python%E8%AF%AD%E6%B3%95/">python语法</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 wqwang<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
